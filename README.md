@@ -31,3 +31,4 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
    - duplicate file script: [File Duplication Script](https://github.com/cimplylimited/file-processing-scripts/blob/main/file_copy_increment.py)   
    - open-zepplin contract wizard: [Contract Wizard](https://wizard.openzeppelin.com/)
    - ERC-721 Token Documents: [Open Zepplin 721 Official Contract Documentation](https://docs.openzeppelin.com/contracts/4.x/erc721)
+   - Non-Transferrable Contract Edit (not audited): [Non-Transferrable Contract Edits](https://forum.openzeppelin.com/t/how-to-create-a-non-transferrable-burnable-erc721/2427)
