@@ -33,4 +33,4 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
    - ERC-721 Token Documents: [Open Zepplin 721 Official Contract Documentation](https://docs.openzeppelin.com/contracts/4.x/erc721)
    - Non-Transferrable Contract Edit (not audited): [Non-Transferrable Contract Edits](https://forum.openzeppelin.com/t/how-to-create-a-non-transferrable-burnable-erc721/2427)
    - Non-Transferrable Tutorial (needs review): [Soulbound ERC 721 Token Tutorial](https://www.ankr.com/docs/smart-contract-tutorials/non-rentable-soulbound-nft/)
-   - JSON Beautifier credit @bestape: [JSON Beauifier](https://jsonbeautifier.org/) 
+   - JSON Beautifier credit @bestape: [JSON Beautifier](https://jsonbeautifier.org/) 
