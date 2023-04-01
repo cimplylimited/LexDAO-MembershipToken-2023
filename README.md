@@ -3,6 +3,7 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
 
 # Plan Overview
 -----------------
+## Base Minting Needs
   - [x] Create a json seed file for the NFT 
   - [x] Create an image seed file for the NFT
   - [x] Create a script to duplicate and increment the json seed file
