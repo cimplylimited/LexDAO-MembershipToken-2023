@@ -35,3 +35,4 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
    - Non-Transferrable Tutorial (needs review): [Soulbound ERC 721 Token Tutorial](https://www.ankr.com/docs/smart-contract-tutorials/non-rentable-soulbound-nft/)
    - JSON Beautifier credit @bestape: [JSON Beautifier](https://jsonbeautifier.org/) 
    - Deploying a Multisig Minter: [Multisig Minter and Defender](https://betterprogramming.pub/theres-a-lot-of-excitement-around-nfts-and-with-good-reason-b7ebc5ecc836)
+   - IPFS File Storage (free): [NFT.Storage](https://nft.storage/docs/)
