@@ -22,6 +22,8 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
   - [ ] Audit the current 2022 membership token for expiration
   - [ ] Grandfather in relevant members per Operating System Document
   
+  # Membership Flow Mockup
+  ![Membership Join Flow](https://user-images.githubusercontent.com/106759485/229314079-b935c399-103d-48dc-9dc1-b703409a6262.png)
   
   # Reference Documents
   --------------------
