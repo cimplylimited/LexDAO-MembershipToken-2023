@@ -22,6 +22,10 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
   - [ ] Audit the current 2022 membership token for expiration
   - [ ] Grandfather in relevant members per Operating System Document
   
+  ## Contract Risk Checks
+  In order to help begin the process of trying to minimize risk factors, the following are some checks that we will be trying to build into the contract mint protocol
+  - [ ] OFAC Sanction List checks
+  
   # Membership Flow Mockup -  [Excalidraw link](https://excalidraw.com/#room=2129b2214566ba2e246d,ykrk2lDXqfz4XnEUXArLBQ)
   ![Membership Join Flow](https://user-images.githubusercontent.com/106759485/229314079-b935c399-103d-48dc-9dc1-b703409a6262.png)
  
