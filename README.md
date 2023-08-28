@@ -3,6 +3,10 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
 
 # Plan Overview
 -----------------
+## Core Supporting Files
+[LexDAO Token Generator](https://github.com/cimplylimited/file-processing-scripts)
+
+
 ## Base Minting Needs
   - [x] Create a json seed file for the NFT 
   - [x] Create an image seed file for the NFT
