@@ -3,7 +3,7 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
 
 # Plan Overview
 -----------------
-## Core Supporting Files
+## Core Script Files
 [LexDAO Token Generator](https://github.com/cimplylimited/file-processing-scripts)
 
 
