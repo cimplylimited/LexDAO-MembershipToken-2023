@@ -30,10 +30,52 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
   ## Contract Risk Checks
   In order to help begin the process of trying to minimize risk factors, the following are some checks that we will be trying to build into the contract mint protocol
   - [ ] OFAC Sanction List checks
+  - [ ] Flash Loan vulnerabilities
+    - [ ] Don't measure governance power in the current block
+  - [ ] Check arbitrary data calls in governance
+    - [ ] Check success conditions
+    - [ ] Re-entrance issues
+    - [ ] Return Data
+    - [ ] EOA vs. Account with Code
+  - [ ] Ensure that if you need a payer function there is a payer function
+  - [ ] Beware of msg.values in batched actions
+  - [ ] Build the use of delays and guardians
+  - [ ] Perform security assessments (especially with upgrades)
+
   
   # Membership Flow Mockup -  [Excalidraw link](https://excalidraw.com/#room=2129b2214566ba2e246d,ykrk2lDXqfz4XnEUXArLBQ)
   ![Membership Join Flow](https://user-images.githubusercontent.com/106759485/229314079-b935c399-103d-48dc-9dc1-b703409a6262.png)
- 
+
+ # Governance Considerations of Smart Contracts for DAO
+ ! [Open Zepplin Presentation on Security Considerations](https://youtu.be/GbDAmMdmh8Q?feature=shared)
+  - Considerations around Administrative Transfer of Powers
+  - Ensuring a contract can be upgraded
+  - Restrictions around Flash Loans of Governance Tokens
+  - Delegation of Voting Power
+    - Ensure that the membership can delegate its powers to allow others to continue to govern if they do not want to participate
+  - Governance Bypass Functions
+  - Whitelisting of Proposers
+    - Allow users to propose things even if the proposer does not have governance tokens/power
+  
+  ## Best Practices
+  -  Documentation on process for attack vectors the way that [Uniswap](https://docs.uniswap.org/protocol/concepts/governance/adversarial-circumstances)
+    - Proposals to exploit vulnerabilities
+    - Collecting enough tokens to force malicious proposals through
+    - Flashloans or spam governance
+    - Bad Faith Proposals
+  
+  ## Types of Governance Artifacts
+  - Improvement Proposals
+    - Change a core function
+  - Configuration Changes
+    - Change a variable
+    
+  ## Governance Bodies
+  - Mini DAOs can utilize different governance functions in a DAO
+  - Guardian Multisig
+    - A group that can cancel a transaction that is not in the best interest of the DAO
+  
+  ## Offchain Functional Considerations
   
   # Reference Documents
   --------------------
@@ -48,3 +90,8 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
    - JSON Beautifier credit @bestape: [JSON Beautifier](https://jsonbeautifier.org/) 
    - Deploying a Multisig Minter: [Multisig Minter and Defender](https://betterprogramming.pub/theres-a-lot-of-excitement-around-nfts-and-with-good-reason-b7ebc5ecc836)
    - IPFS File Storage (free): [NFT.Storage](https://nft.storage/docs/)
+   - Open Zeppelin Contract Security Discussion: [Strategies for Secure Governance with Smart Contracts](https://youtu.be/GbDAmMdmh8Q?feature=shared)
+   - Ethereum DAO: [Ethereum DAO Page](https://ethereum.org/en/dao)
+   - WithTally: [WithTally Wikipage](https://wiki.withtally.com/docs/other-protocols)
+
+
