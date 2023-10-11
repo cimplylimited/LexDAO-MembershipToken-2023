@@ -42,7 +42,11 @@ We will likely need the contract to manage multiple currencies in order to autho
   3. allow for an equivalent in DAI
 
 No other cryptocurrencies to be accepted in **MVP**
- 
+
+
+## Functional Considerations
+ - Given the limitations of some of the true "expiring" values in the meta data for NFTs we will likely need to split a commemorative token/NFT for each year a member is in the DAO with the permissions based "rental" token or other to satisfy the "member card". 
+  - The other option here is to figure out how to get the token factory to update the meta data and it's expiration as part of either the contract store value or the actual file generator for the token mints
 
 
   ## Contract Risk Checks
