@@ -56,7 +56,7 @@ No other cryptocurrencies to be accepted in **MVP**
 ### Idea
 
  - What if we had the contract prebuilt to create the token for a user and then execute a time lock where the token was automatically burned by the smart contract after 365 days.  I would prefer the expiration was just explicit and the artifact continued, but we could either do a rental or a burn and issue a commemorative (either at mint or at burn).
- 
+ - I want to consider this like a certicate authority, ssh key, csr, and the like.  Same general idea because the expiration of the token is important meta data but it is not clear how it gets incorporated into the token creation and whether it is token.json, token.sol, or other at this point. 
 
 
   ## Token Asset Value
