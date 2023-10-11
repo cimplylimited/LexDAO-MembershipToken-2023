@@ -35,6 +35,16 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
   - [ ] Audit the current 2022 membership token for expiration
   - [ ] Grandfather in relevant members per Operating System Document
   
+## Transactional Considerations
+We will likely need the contract to manage multiple currencies in order to authorize the mint.  For simplicity sake, we should consider implementing the contract with an ability to
+  1. connect to etherium blockchain and quote the current usd to eth conversion
+  2. standardize the fee based on this calculation at mint in USD
+  3. allow for an equivalent in DAI
+
+No other cryptocurrencies to be accepted in **MVP**
+ 
+
+
   ## Contract Risk Checks
   In order to help begin the process of trying to minimize risk factors, the following are some checks that we will be trying to build into the contract mint protocol
   - [ ] OFAC Sanction List checks
