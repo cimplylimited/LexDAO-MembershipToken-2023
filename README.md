@@ -53,6 +53,12 @@ No other cryptocurrencies to be accepted in **MVP**
   - The other option here is to figure out how to get the token factory to update the meta data and it's expiration as part of either the contract store value or the actual file generator for the token mints
   - Do we have a way to store contract terms and conditions so that when the contract is called the plain text version of the user T&Cs is able to be visible in the wallet for signature?
 
+### Idea
+
+ - What if we had the contract prebuilt to create the token for a user and then execute a time lock where the token was automatically burned by the smart contract after 365 days.  I would prefer the expiration was just explicit and the artifact continued, but we could either do a rental or a burn and issue a commemorative (either at mint or at burn).
+ 
+
+
   ## Token Asset Value
   ### What does a token represent in LexDAO?
   - LexDAO Tenure: How long you have been a member
