@@ -23,8 +23,11 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
     - [ ] Time expiration
       - [ ] Considerations for the ERC-4907
         - Remember that in this standard the token remains the property of the origin rather than the "renter"
-      - [ ] Second Consideration is to embed the token with a time value in the contract itself using a store variable in solidity
-  - [ ] Link the contract to the DAO Safe for minting
+      - [ ] Second Consideration is to embed the token with a time value in the contract itself using a store variable in solidity.  Would like this to be an explicit value updateable by the admin minting wallet.    
+  - [ ] Link the contract to the DAO Gnosis Safe for minting
+    - [ ] This may be a sub-wallet with approvals or might be a full self-mint
+    - [ ] Make sure to include conditions for one mint one wallet
+    - [ ] Should we consider ERC-712 authentication?
   - [ ] Test Mint the token
   - [ ] Submit the code for membership review
   - [ ] Formally mint the token
