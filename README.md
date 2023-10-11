@@ -43,6 +43,10 @@ We will likely need the contract to manage multiple currencies in order to autho
 
 No other cryptocurrencies to be accepted in **MVP**
 
+### Vesting Period
+ - We may want to consider a vesting period for voting rights for paid members
+  - See: "Governance Considerations of Smart Contracts for DAO"
+
 
 ## Functional Considerations
  - Given the limitations of some of the true "expiring" values in the meta data for NFTs we will likely need to split a commemorative token/NFT for each year a member is in the DAO with the permissions based "rental" token or other to satisfy the "member card". 
