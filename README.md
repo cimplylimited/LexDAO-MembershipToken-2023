@@ -47,6 +47,21 @@ No other cryptocurrencies to be accepted in **MVP**
 ## Functional Considerations
  - Given the limitations of some of the true "expiring" values in the meta data for NFTs we will likely need to split a commemorative token/NFT for each year a member is in the DAO with the permissions based "rental" token or other to satisfy the "member card". 
   - The other option here is to figure out how to get the token factory to update the meta data and it's expiration as part of either the contract store value or the actual file generator for the token mints
+  - Do we have a way to store contract terms and conditions so that when the contract is called the plain text version of the user T&Cs is able to be visible in the wallet for signature?
+
+  ## Token Asset Value
+  ### What does a token represent in LexDAO?
+  - LexDAO Tenure: How long you have been a member
+  - LexDAO Continuity: What interruptions may have occurred in your tenure
+  - Voting Power: LexDAO is and always will be 1 member 1 vote
+  - Permissions: Tiers of membership authority centered around
+    - Applied and Paid
+    - Applied and Work for Member
+    - Full Membership
+    - Lex Certified
+    - Committee Manager
+    - Operations (Board) Director
+
 
 
   ## Contract Risk Checks
