@@ -11,7 +11,9 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
   - [x] Create a json seed file for the NFT 
   - [x] Create an image seed file for the NFT
   - [x] Create a script to duplicate and increment the json seed file
-  - [ ] Create a script to increment the Token ID inside the json seed file
+  - [x] Create a script to increment the Token ID inside the json seed file
+    - [ ] can this be done with a smart application using a smart contract or offline process?
+    - [ ] ideal is for this to generate the file metadata at mint by interacting with an off-chain application 
   - [ ] Create a script to convert the NFT seed file to base-64
   - [x] Pull a template open-zepplin minting contract
   - [ ] Edit parameters of the open-zepplin minting contract to include
@@ -19,6 +21,9 @@ An outline of the current workflow to deploy a simple custom 2023 ERC 721 NFT To
     - [ ] Burn Function
     - [ ] Non-Transferrability
     - [ ] Time expiration
+      - [ ] Considerations for the ERC-4907
+        - Remember that in this standard the token remains the property of the origin rather than the "renter"
+      - [ ] Second Consideration is to embed the token with a time value in the contract itself using a store variable in solidity
   - [ ] Link the contract to the DAO Safe for minting
   - [ ] Test Mint the token
   - [ ] Submit the code for membership review
